@@ -14,7 +14,7 @@ class CallSendApi
         $this->pageAccessToken = $pageAccessToken;
     }
 
-    public function make(array $message, string url = null, $method = 'POST') :string
+    public function make(array $message, string $url = null, $method = 'POST') :string
     {
         $client = new Client;
         $url = $url ?? CallSendApi::URL;

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f26518ecd97f698788cb93454a402983",
+    "content-hash": "1bcb90fa022aa4ceef844bd1226a1b66",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -1805,7 +1805,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "tarciso-torres/code-facebook-chatbot-sdk": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

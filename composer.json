@@ -10,7 +10,8 @@
     ],
     "require": {
         "php": ">=7.2",
-        "guzzlehttp/guzzle": "^6.5"
+        "guzzlehttp/guzzle": "^6.5",
+        "tarciso-torres/code-facebook-chatbot-sdk": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
